@@ -15,8 +15,8 @@ body {
     left: 0;
     background-color: #0c0714;
     transition: 0.5s;
-    overflow-x: hidden;
     padding-top: 60px;
+    overflow-x: hidden;
     white-space: nowrap;
   }
   
@@ -39,6 +39,11 @@ body {
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
   }
   
   .material-icons,
