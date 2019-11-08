@@ -1,7 +1,8 @@
 body {
     margin: 60px auto;
+    margin-top: 30px;
     width: 80%; 
-    background-color: #0e0916;
+    background-color: #201631;
     color: #f0d975;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
@@ -13,7 +14,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #0d051a;
+    background-color: #0b0418;
     transition: 0.5s;
     padding-top: 60px;
     overflow-x: hidden;
