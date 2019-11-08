@@ -2,7 +2,7 @@ body {
     margin: 60px auto;
     margin-top: 30px;
     width: 80%; 
-    background-color: #2a1f3b;
+    background-color: #191227;
     color: #f0d975;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
@@ -14,7 +14,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #0b0418;
+    background-color: #070211;
     transition: 0.5s;
     padding-top: 60px;
     overflow-x: hidden;
@@ -94,7 +94,7 @@ p {
     color: rgb(241, 218, 82);
 }
 footer {
-    border-top: 1px solid #2a1f3b;
+    border-top: 1px solid #060313;
     font-size: .8em;
 }
 
