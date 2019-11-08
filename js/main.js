@@ -6,6 +6,7 @@ function openSidebar() {
     document.getElementById("main").style.marginLeft = "250px";
     this.collapsed = false;
 }
+
 function closeSidebar() {
     console.log("Closing Sidebar")
     document.getElementById("mySidebar").style.width = "85px";
