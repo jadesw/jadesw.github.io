@@ -4,26 +4,45 @@
 		<title>chilled cow rules</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<!-- link to favicon -->
+		<link rel="icon" href="icon.png">
 	</head>
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+	<div id="mySidebar" class = "sidebar"
+		onmouseover="openSidebar()"
+		onmouseout="closeSidebar()">
+		<a href="/"><span><i class="material-icons">info</i><span class="icon-text">Home</span></a><br>
+		<a href="/about"><i class="material-icons">spa</i><span class="icon-text"></span>About</a></span>
+		</a><br>
+		<a href="/streams"><i class="material-icons">monetization_on</i><span class="icon-text"></span>Streams</span></a><br>	
+	</div> <!-- /.sidebar -->
+
 	<body>
-		<nav>
+		<!-- <nav>
     		<ul>
         		<li><a href="/">Home</a></li>
 	        	<li><a href="/about">About</a></li>
         		<li><a href="/streams">Streams</a></li>
     		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>site under construction</h1>
-				<p>work in progress</p>
+		</nav> -->
+
+		<div id="main">
+    		<div class="video chunk">
+				<p>title</p>
+				<iframe width="640" height="360" src="https://www.youtube.com/embed/hHW1oY26kxQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+				</iframe>
     		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:swade@hmc.edu">email</a></li>
-        		<li><a href="https://github.com/jadesw">github.com/jadesw</a></li>
-			</ul>
-		</footer>
+			<footer>
+    			<ul>
+        			<li><a href="mailto:swade@hmc.edu">email</a></li>
+        			<li><a href="https://github.com/jadesw">github.com/jadesw</a></li>
+				</ul>
+			</footer>
+		</div><!-- /.main -->
+
+		<script src="/js/main.js"></script>
 	</body>
+
 </html>
