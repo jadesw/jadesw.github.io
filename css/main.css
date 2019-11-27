@@ -103,6 +103,11 @@ a:hover {
     text-decoration: none;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 
 h1 {
     font-size: 3em;
